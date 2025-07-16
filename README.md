@@ -20,7 +20,7 @@ Each row includes:
 
 
 
-## Machine Learning Task
+## Machine Learning Model : 
 
 **Type:** Regression Problem  
 Given the laptop's specifications, predict its price in Indian Rupees.
@@ -32,22 +32,42 @@ Given the laptop's specifications, predict its price in Indian Rupees.
 
 These metrics were used to evaluate the accuracy of each regression model trained.
 
+## ANN Model :
 
-##  Project Highlights
+A neural network with Embedding + Dense layers using TensorFlow/KerasTrained on label-encoded + scaled inputs
+
+## Combined Model :
+
+Weighted average of ML and ANN predictions for ensemble learning
+
+
+##  Project Highlights :
 
 -  Predicts laptop price from 13+ hardware features
 -  Built an end-to-end pipeline with feature engineering
 -  Streamlit dashboard** for live predictions
 -  Visual model comparison & performance metrics
 
-# Result :
+## Result :
+
+**ML Model :**
 ![alt text](Image/image.png)
+
+**ANN Model :**
+![alt text](Image/ann.png)
+
+![alt text](Image/ann_prediction.png.png)
+
+**Combined Model :**
+![alt text](Image/Combined_model.png)
 
 # Dashboard Display :
 
 ![alt text](Image/image-1.png)
 
-# Result Comparision 
+# Result Comparision : 
+
+Based on the evaluation, the ML model (GradientBoosting) is the most reliable for predicting laptop prices. The ANN and Ensemble models did not outperform the ML model and are not recommended for final deployment unless further tuning is done.
 
 * Actual Price
 ![alt text](<Image/image copy.png>)
