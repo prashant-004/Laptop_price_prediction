@@ -1,1 +1,9 @@
+# Local environments and tuning logs
 laptop_env/
+tuner_dir/
+tuning_dir/
+laptop_ann_tuner/
+
+# Python cache and Jupyter artifacts
+__pycache__/
+.ipynb_checkpoints/
