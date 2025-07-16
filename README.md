@@ -56,7 +56,7 @@ Weighted average of ML and ANN predictions for ensemble learning
 **ANN Model :**
 ![alt text](Image/ann.png)
 
-![alt text](Image/ann_prediction.png.png)
+![alt text](Image/ann_prediction.png)
 
 **Combined Model :**
 ![alt text](Image/Combined_model.png)
